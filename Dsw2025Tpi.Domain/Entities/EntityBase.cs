@@ -4,7 +4,7 @@ public abstract class EntityBase
 {
     protected EntityBase()
     {
-        Id = Guid.NewGuid();
+        Id = Guid.NewGuid();// Genera un GUID al crear cualquier entidad
     }
-    public Guid Id { get; }
+    public Guid Id { get; set; }
 }
