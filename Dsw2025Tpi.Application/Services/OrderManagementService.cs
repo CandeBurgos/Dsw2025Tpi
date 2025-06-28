@@ -84,7 +84,7 @@ namespace Dsw2025Tpi.Application.Services
                     ShippingAddress = request.ShippingAddress,
                     BillingAddress = request.BillingAddress,
                     Notes = request.Notes,
-                    Status = OrderStatus.PENDING,
+                    Status = OrderStatus.Pending,
                     TotalAmount = totalAmount, // Calculado
                     OrderItems = orderItems
                 };

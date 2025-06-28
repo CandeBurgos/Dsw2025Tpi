@@ -1,0 +1,42 @@
+[
+    {
+        "id": "73fb43ed-7b92-4c5d-95ca-f7825f39be1a",
+        "customerId": "d0b83695-d64b-497e-bd74-e1d65f2e53c5",
+        "shippingAddress": "Av. Siempre Viva 123, Springfield",
+        "billingAddress": "Av. Siempre Viva 123, Springfield",
+        "date": "2025-06-28T05:47:30.727192",
+        "status": "PENDING",
+        "totalAmount": 300.0,
+        "orderItems": [
+            {
+                "id": "38020513-012d-4f79-884f-4e4d1e44f8e4",
+                "productId": "923c75fa-97ee-4dcc-bd1b-6d796f1fb60b",
+                "productName": "Teclado Mecánico",
+                "productDescription": "Teclado mecánico retroiluminado",
+                "quantity": 2,
+                "unitPrice": 150.0,
+                "subtotal": 300.0
+            }
+        ]
+    },
+    {
+        "id": "2d24fde4-fbeb-4959-85cc-c20bbfa797a4",
+        "customerId": "4f34664f-783f-453c-aae8-7bfedfd50d87",
+        "shippingAddress": "Calle Luna 456, Shelbyville",
+        "billingAddress": "Calle Luna 456, Shelbyville",
+        "date": "2025-06-28T05:47:30.727463",
+        "status": "PENDING",
+        "totalAmount": 80.0,
+        "orderItems": [
+            {
+                "id": "ea9db8d0-a183-4903-a43b-3f229d6b7a36",
+                "productId": "af7b7804-4122-48c4-8469-316502f22acf",
+                "productName": "Mouse Gamer",
+                "productDescription": "Mouse óptico de alta precisión",
+                "quantity": 1,
+                "unitPrice": 80.0,
+                "subtotal": 80.0
+            }
+        ]
+    }
+]

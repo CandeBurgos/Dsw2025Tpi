@@ -74,7 +74,7 @@ namespace Dsw2025Tpi.Data
                 .HasColumnType("decimal(18,2)");
                 
             eb.Property(o => o.Status)
-                .HasDefaultValue(OrderStatus.PENDING);
+                .HasDefaultValue(OrderStatus.Pending);
                 
             // Relación con OrderItems
             eb.HasMany(o => o.OrderItems)

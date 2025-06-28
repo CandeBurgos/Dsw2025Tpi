@@ -39,7 +39,7 @@ namespace Dsw2025Tpi.Data.Repositories
                 Id = Guid.NewGuid(),
                 CustomerId = Guid.NewGuid(), // Simulado según documento
                 Date = DateTime.UtcNow.AddDays(-1),
-                Status = OrderStatus.PENDING,
+                Status = OrderStatus.Pending,
                 ShippingAddress = "Calle Ejemplo 123",
                 BillingAddress = "Calle Ejemplo 123",
                 OrderItems = new List<OrderItem>

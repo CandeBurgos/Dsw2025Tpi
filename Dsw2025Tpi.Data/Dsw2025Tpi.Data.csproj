@@ -22,4 +22,19 @@
     <Folder Include="Fuentes\" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Update="Data/Fuentes/products.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Data/Fuentes/orders.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Fuentes\orders.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Fuentes\products.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
 </Project>

@@ -8,11 +8,11 @@ namespace Dsw2025Tpi.Domain
 {
     public enum OrderStatus
     {
-        PENDING,      // Estado inicial (automático)
-        PROCESSING,   // En preparación
-        SHIPPED,      // Enviada
-        DELIVERED,    // Entregada
-        CANCELLED     // Cancelada
+        Pending, // Estado inicial (automático)
+        Processing,   // En preparación
+        Shipped,      // Enviada
+        Delivered,    // Entregada
+        Cancelled     // Cancelada
     }
 }
 

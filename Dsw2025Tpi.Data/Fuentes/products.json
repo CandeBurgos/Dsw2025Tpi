@@ -1,0 +1,52 @@
+[
+    {
+        "id": "923c75fa-97ee-4dcc-bd1b-6d796f1fb60b",
+        "sku": "PROD001",
+        "internalCode": "INT001",
+        "name": "Teclado Mecánico",
+        "description": "Teclado mecánico retroiluminado",
+        "currentUnitPrice": 150.0,
+        "stockQuantity": 30,
+        "isActive": true
+    },
+    {
+        "id": "af7b7804-4122-48c4-8469-316502f22acf",
+        "sku": "PROD002",
+        "internalCode": "INT002",
+        "name": "Mouse Gamer",
+        "description": "Mouse óptico de alta precisión",
+        "currentUnitPrice": 80.0,
+        "stockQuantity": 50,
+        "isActive": true
+    },
+    {
+        "id": "2485f846-9fee-4b04-9743-0d2e87c74243",
+        "sku": "PROD003",
+        "internalCode": "INT003",
+        "name": "Monitor 24 pulgadas",
+        "description": "Monitor FHD con HDMI",
+        "currentUnitPrice": 300.0,
+        "stockQuantity": 20,
+        "isActive": true
+    },
+    {
+        "id": "3e9191e8-c37f-4a25-945a-3b15ced9196b",
+        "sku": "PROD004",
+        "internalCode": "INT004",
+        "name": "Auriculares Bluetooth",
+        "description": "Auriculares inalámbricos con micrófono",
+        "currentUnitPrice": 120.0,
+        "stockQuantity": 40,
+        "isActive": true
+    },
+    {
+        "id": "33717585-5042-4b9b-9876-53498a0578cb",
+        "sku": "PROD005",
+        "internalCode": "INT005",
+        "name": "Webcam HD",
+        "description": "Cámara HD para videollamadas",
+        "currentUnitPrice": 70.0,
+        "stockQuantity": 25,
+        "isActive": true
+    }
+]

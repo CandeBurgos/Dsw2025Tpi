@@ -12,13 +12,13 @@ namespace Dsw2025Tpi.Domain.Entities
         {
             OrderItems = new List<OrderItem>();
             Date = DateTime.UtcNow;
-            Status = OrderStatus.PENDING;
+            Status = OrderStatus.Pending;
         }
 
         public DateTime Date { get; set; }
         public string ShippingAddress { get; set; }
         public string BillingAddress { get; set; }
-        public string Notes { get; set; }
+        public string? Notes { get; set; }
         public decimal TotalAmount { get; set; }
         public OrderStatus Status { get; set; }
         public Guid CustomerId { get; set; }
