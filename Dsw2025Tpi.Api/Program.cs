@@ -4,6 +4,7 @@ using Dsw2025Tpi.Data;
 using Dsw2025Tpi.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Dsw2025Tpi.Application.Services;
+using System;
 
 namespace Dsw2025Tpi.Api;
 
@@ -18,18 +19,10 @@ public class Program
         builder.Services.AddSwaggerGen();
         builder.Services.AddHealthChecks();
 
-        // Base de datos con SQL Server y Entity Framework Core
+       
+        
         builder.Services.AddDbContext<Dsw2025TpiContext>(options =>
-        {
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-
-            // Si usás una estrategia de carga desde JSON, agregala aquí (opcional)
-            // Ejemplo:
-            // options.UseSeeding((context, type) => {
-            //     ((Dsw2025TpiContext)context).Seedwork<Product>("Sources/products.json");
-            //     ((Dsw2025TpiContext)context).Seedwork<Customer>("Sources/customers.json");
-            // });
-        });
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         // Inyección de dependencias
         builder.Services.AddScoped<IRepository, EfRepository>();

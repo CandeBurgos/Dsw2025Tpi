@@ -47,8 +47,8 @@ namespace Dsw2025Tpi.Application.Services
 
             public async Task<OrderModel.OrderResponse> CreateOrder(OrderModel.OrderRequest request)
             {
-                var customerExists = await _repository.GetById<Order>(request.CustomerId) != null;
-                if (!customerExists) throw new NotFoundException("Cliente", request.CustomerId);
+                //var customerExists = await _repository.GetById<Order>(request.CustomerId) != null;
+                //if (!customerExists) throw new NotFoundException("Cliente", request.CustomerId);
             // Validaciones básicas (direcciones y items)
             if (string.IsNullOrWhiteSpace(request.ShippingAddress))
                     throw new ArgumentException("La dirección de envío es obligatoria");

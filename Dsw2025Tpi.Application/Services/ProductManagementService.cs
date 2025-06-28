@@ -37,8 +37,8 @@ namespace Dsw2025Tpi.Application.Services
 
         public async Task<IEnumerable<ProductModel.ProductResponse>> GetProducts()
         {
-            var products = await _repository.GetAll<Product>();
-            return products?
+            var product = await _repository.GetAll<Product>();
+            return product?
                 .Where(p => p.IsActive)
                 .Select(p => new ProductModel.ProductResponse(
                     p.Id,
